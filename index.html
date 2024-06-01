@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QS</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">QS</a>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tafsir">Tafsir</a></li>
+            <li><a href="#komik">Komik</a></li>
+            <li><a href="#surat">Surat</a></li>
+        </ul>
+    </header>
+    <section class="parallax-home">
+        <img src="Home-Images/sky.png" alt="" id="">
+        <img src="Home-Images/moon.png" alt="" id="moon">
+        <img src="Home-Images/water.png" alt="" id="">
+        <img src="Home-Images/center-city.png" alt="" id="">
+        <img src="Home-Images/right-city.png" alt="" id="">
+        <img src="Home-Images/left-city.png" alt="" id="">
+        <img src="Home-Images/train.png" alt="" id="train">
+        <img src="Home-Images/rail.png" alt="" id="">
+        <h1 id="text">Quranic Serenity</h1>
+        <img src="Home-Images/hill-left-1.png" alt="" id="">
+        <img src="Home-Images/hill-right-1.png" alt="" id="">
+    </section>
+    <section class="tafsir" id="tafsir">
+        <div class="info-box">
+            <h2>Tafsir</h2>
+            <p>
+                Dan sungguh, Kami telah menguji orang-orang sebelum mereka, maka Allah pasti mengetahui orang-orang yang benar dan pasti mengetahui orang-orang yang dusta.            </p>
+            <a href="tafsir.html" class="btn">Explore</a>
+        </div>
+        <img src="About-images/waterfall.png" alt="" id="waterfall" class="tafsir-waterfall">
+        <img src="About-images/desert-sky.png" alt="">
+        <img src="About-images/desert-moon.png" alt="" id="desert-moon">
+        <img src="About-images/desert-NoSky.png" alt="">
+        <img src="About-images/desert-rock.png" alt="">
+        <img src="About-images/water.png" alt="">
+        <img src="About-images/man.png" alt="" id="kapal">
+        <img src="About-images/grass.png" alt="">
+<div id="progress">
+    <span id="progress-value">
+        <i class='bx bx-chevrons-up'></i>
+        </span>
+</div>
+    </section>
+    <section class="komik" id="komik">
+        <h2>Dunia Dalam Genggaman</h2>
+        <div class="komik-card">
+            <div class="card">
+                <img src="products\pict1.png" alt="">
+                <div class="info">
+                    <div class="bab-name">
+                        <h3>blabla</h3>
+                        <span>Bab 1</span>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nam rerum tempora aliquid magni nemo laboriosam accusantium dicta deserunt. Repellat quo totam nam cupiditate. Similique quibusdam quos minus doloribus iure.</p>
+                    <a href="komik1.html" class="btn">Go</a>
+                </div>
+            </div>
+        <div class="card">
+            <img src="products\pict1.png" alt="">
+            <div class="info">
+                <div class="bab-name">
+                    <h3>blabla</h3>
+                    <span>Bab 2</span>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nam rerum tempora aliquid magni nemo laboriosam accusantium dicta deserunt. Repellat quo totam nam cupiditate. Similique quibusdam quos minus doloribus iure.</p>
+                <a href="komik2.html" class="btn">Go</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="products\pict1.png" alt="">
+            <div class="info">
+                <div class="bab-name">
+                    <h3>blabla</h3>
+                    <span>Bab 3</span>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nam rerum tempora aliquid magni nemo laboriosam accusantium dicta deserunt. Repellat quo totam nam cupiditate. Similique quibusdam quos minus doloribus iure.</p>
+                <a href="komik3.html" class="btn">Go</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="products\pict1.png" alt="">
+            <div class="info">
+                <div class="bab-name">
+                    <h3>blabla</h3>
+                    <span>Bab 4</span>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nam rerum tempora aliquid magni nemo laboriosam accusantium dicta deserunt. Repellat quo totam nam cupiditate. Similique quibusdam quos minus doloribus iure.</p>
+                <a href="komik4.html" class="btn">Go</a>
+            </div>
+        </div>
+</section>
+<section class="surat" id="surat">
+    <div class="player">
+        <div class="wrapper">
+            <div class="details">
+                <div class="now-playing">PLAYING x OF y</div>
+                <div class="track-art"></div>
+                <div class="track-name">Track Name</div>
+                <div class="track-artist">Track Artist</div>
+            </div>
+            <div class="slider_container">
+                <div class="current-time">00:00</div>
+                 <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                 <div class="total-duration">00:00</div>
+            </div>
+            <div class="slider_container">
+                <i class="fa fa-volume-down"></i>
+                 <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                 <i class="fa fa-volume-up"></i>
+            </div>
+            <div class="buttons">
+                <div class="prev-track" onclick="prevTrack()">
+                     <i class="fa fa-step-backward fa-2x"></i>
+                 </div>
+                 <div class="playpause-track" onclick="playpauseTrack()">
+                     <i class="fa fa-play-circle fa-5x"></i>
+                 </div>
+                 <div class="next-track" onclick="nextTrack()">
+                     <i class="fa fa-step-forward fa-2x"></i>
+                 </div>
+            </div>
+             <div id="wave">
+                 <span class="stroke"></span>
+                 <span class="stroke"></span>
+                 <span class="stroke"></span>
+                 <span class="stroke"></span>
+                 <span class="stroke"></span>
+                 <span class="stroke"></span>
+                 <span class="stroke"></span>
+             </div>  
+        </div>
+    </div>
+</section>
+    <script src="index.js"></script>
+</body>
+</html>

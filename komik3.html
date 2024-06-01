@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Komik Saya</title>
+    <style>
+        /* Gaya CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF;
+        }
+        header {
+            background-color: #121137;
+            color: #FFF;
+            text-align: center;
+            padding: 08px;
+            display: flex;
+            justify-content: space-between; /* Menggunakan justify-content untuk menjaga ikon di sebelah kiri dan judul di tengah */
+            align-items: center;
+        }
+        h1 {
+            margin: 0;
+            flex-grow: 1; /* Ini akan memberikan judul fleksibilitas untuk membesar dan memenuhi ruang yang tersedia di header */
+            text-align: center; /* Teks judul diatur ke tengah */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #FFF;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .komik {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        .back-button {
+            text-align: left;
+            margin-top: 8px;
+        }
+        .back-button a {
+            text-decoration: none;
+            color: #FFF;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+        }
+        .back-button a i {
+            margin-right: 5px;
+            font-size: 44px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="back-button">
+            <a href="index.html" onclick="goBack()">
+                <i class='bx bxs-left-arrow-alt'></i> 
+            </a>
+        </div>
+        <h1>BLABLABLA</h1>
+    </header>
+    <div class="container">
+        <div class="komik">
+            <img src="komik/1.jpeg" alt="Komik 1">
+        </div>
+        <div class="komik">
+            <img src="komik/1.jpeg" alt="Komik 2">
+        </div>
+    </div>
+</body>
+</html>
